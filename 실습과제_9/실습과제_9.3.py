@@ -1,0 +1,26 @@
+from PriorityQueue_BST import *
+
+q = PriorityQueue_BST()
+
+q.Display()
+q.enqueue(34)
+q.Display()
+q.enqueue(18)
+q.Display()
+q.enqueue(27)
+q.Display()
+q.enqueue(45)
+q.Display()
+q.enqueue(15)
+q.Display()
+
+q.dequeue()
+q.Display()
+q.dequeue()
+q.Display()
+q.dequeue()
+q.Display()
+q.dequeue()
+q.Display()
+q.dequeue()
+q.Display()
